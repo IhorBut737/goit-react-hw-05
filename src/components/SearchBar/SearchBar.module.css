@@ -1,0 +1,28 @@
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.inputText {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.searchBtn {
+  padding: 10px 20px;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}

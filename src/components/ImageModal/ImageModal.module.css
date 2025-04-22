@@ -1,0 +1,35 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+
+  max-width: 90%;
+  width: 600px;
+
+  position: relative;
+  outline: none;
+}
+
+.info {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #555;
+}
