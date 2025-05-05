@@ -1,18 +1,12 @@
-.searchbar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-}
-
 .form {
   display: flex;
-  justify-content: center;
-  gap: 8px;
+
+  align-items: center;
+  gap: 10px;
 }
 
-.inputText {
-  width: 300px;
+.input {
+  width: 200px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
